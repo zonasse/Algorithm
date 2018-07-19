@@ -1,2 +1,1 @@
 # Algorithm(C++ Version)
-haerd
