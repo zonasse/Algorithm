@@ -59,6 +59,7 @@ public:
             }else{
                 break;
             }
+            i++;
         }
         return ancestor;
     }
@@ -83,6 +84,12 @@ public:
 };
 
 int main(){
-
+    tNode *n1 = new tNode(1);
+    tNode *n2 = new tNode(2);
+    tNode *n3 = new tNode(3);
+    n1->left = n2;
+    n1->right = n3;
+    Solution handle;
+    printf("%d\n",handle.common_ancestor2(n1,n2,n3)->data);
     return 0;
 }
