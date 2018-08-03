@@ -9,7 +9,7 @@ struct tNode{
 };
 class Solution{
 public:
-    //�ݹ�
+    //递归
     int leaf_count(tNode *root){
         if(!root){
             return 0;
@@ -19,7 +19,7 @@ public:
         }
         return leaf_count(root->left) + leaf_count(root->right);
     }
-    //�ǵݹ�
+    //非递归
     int leaf_count2(tNode *root){
         if(!root){
             return 0;
