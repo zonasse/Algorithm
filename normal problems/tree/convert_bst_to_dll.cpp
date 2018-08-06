@@ -15,7 +15,7 @@ public:
     tNode* convert_bst_to_dll(tNode *root){
         root = sub_convert(root);
         while(root->left){
-            root = roo->left;
+            root = root->left;
         }
         return root;
     }
@@ -56,7 +56,7 @@ public:
                 node_stack.push(cur);
                 cur = cur->left;
             }
-            if(stack.empty()){
+            if(node_stack.empty()){
                 break;
             }
             //此时无左孩子，输出栈顶元素
@@ -64,6 +64,7 @@ public:
             node_stack.pop();
             if(old){
                 old->right = cur;
+                cur->left = old;
             }
             if(!head){
                 head = cur;
