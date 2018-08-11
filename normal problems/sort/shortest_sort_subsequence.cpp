@@ -1,3 +1,6 @@
+/*
+ *  最短排序子数组
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

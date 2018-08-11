@@ -1,4 +1,6 @@
-//一个数组实现两个栈
+/*
+ *  一个数组实现两个栈
+ */
 #include <bits/stdc++.h>
 using namespace std;
 const int maxsize = 1e3;

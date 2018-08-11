@@ -1,3 +1,6 @@
+/*
+ *  单链表删除目标元素
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

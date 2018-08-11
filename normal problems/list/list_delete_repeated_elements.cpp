@@ -1,3 +1,6 @@
+/*
+ *  单链表删除重复元素
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

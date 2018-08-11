@@ -1,3 +1,6 @@
+/*
+ * 根据某个数值val将单链表分为两部分，一部分大于val，另一部分小于val
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

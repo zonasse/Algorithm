@@ -1,3 +1,6 @@
+/*
+ *  ÅÐ¶ÏÐý×ª´Ê
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

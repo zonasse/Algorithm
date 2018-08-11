@@ -1,3 +1,6 @@
+/*
+ *  判断数组是否有重复元素
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

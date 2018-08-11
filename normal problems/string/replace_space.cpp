@@ -1,3 +1,6 @@
+/*
+ *  替换句子中的空格为%20
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

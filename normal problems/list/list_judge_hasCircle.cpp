@@ -1,3 +1,6 @@
+/*
+ *  链表判断是否有环
+ */
 #include <bits/stdc++.h>
 using namespace std;
 struct ListNode{

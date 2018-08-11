@@ -1,3 +1,6 @@
+/*
+ *  打印两个有序链表的公共部分
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

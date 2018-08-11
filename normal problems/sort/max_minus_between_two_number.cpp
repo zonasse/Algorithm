@@ -1,3 +1,6 @@
+/*
+ *  数组排序后相邻元素的最大差值
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,6 @@
+/*
+ *  反转栈中元素
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

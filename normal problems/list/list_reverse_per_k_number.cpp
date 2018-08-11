@@ -1,3 +1,6 @@
+/*
+ *  每K个数反转单链表
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

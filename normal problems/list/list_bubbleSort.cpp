@@ -1,3 +1,6 @@
+/*
+ *  µ•¡¥±Ì√∞≈›≈≈–Ú
+ */
 #include <bits/stdc++.h>
 
 struct listNode{

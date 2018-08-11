@@ -1,3 +1,6 @@
+/*
+ *  窗口数组的最大值
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

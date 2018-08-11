@@ -1,3 +1,6 @@
+/*
+ *  合并两个排序数组
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

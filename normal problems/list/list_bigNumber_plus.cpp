@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-//链表为逆序存储，个位位于链表表头
+/*
+ * 用单链表模拟大数加法，链表为逆序存储，个位位于链表头
+ */
 struct ListNode{
     int data;
     ListNode *next;
@@ -18,6 +20,7 @@ public:
         }
         ListNode *ptr1 = head1;
         ListNode *ptr2 = head2;
+        //创建出额外的头结点便于存储结果
         ListNode *result = new ListNode(0);
         ListNode *resultPtr = result;
         int carry = 0;

@@ -1,3 +1,6 @@
+/*
+ *  用两个栈实现队列
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

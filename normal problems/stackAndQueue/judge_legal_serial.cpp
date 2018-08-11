@@ -1,3 +1,6 @@
+/*
+ *  判断合法出栈序列
+ */
 #include <bits/stdc++.h>
 using namespace std;
 

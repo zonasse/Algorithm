@@ -1,3 +1,6 @@
+/*
+ *  判断回文单链表
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -39,6 +42,7 @@ public:
         ListNode *slow = head;
         stack<ListNode*> support;
         int nodeCount = 0;
+        //遍历拿到前一半数据
         while(fast){
             if(fast->next == NULL){//节点数为奇数
                 slow = slow->next;
@@ -48,6 +52,7 @@ public:
             slow = slow->next;
             fast = fast->next->next;
         }
+        //后一半与前一半数据对比
         while(slow){
             ListNode *temp = support.top();
             if(slow->data != temp->data){

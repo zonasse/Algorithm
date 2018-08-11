@@ -1,3 +1,6 @@
+/*
+ *  判断两个有环单链表是否相交，并且可求出相交节点
+ */
 #include <bits/stdc++.h>
 
 struct ListNode{
@@ -20,6 +23,7 @@ public:
         if(loopStartNode1 == loopStartNode2){
             return true;
         }else{
+            //由第一个循环节点的下一个节点开始遍历，若遍历到第二个循环节点则返回true
             ListNode *temp = loopStartNode1->next;
             while(temp != loopStartNode1){
                 if(temp == loopStartNode2){

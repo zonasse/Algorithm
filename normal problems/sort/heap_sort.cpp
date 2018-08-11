@@ -1,3 +1,6 @@
+/*
+ *  å †æ’åº
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -7,7 +10,7 @@ public:
         if(nums.empty() || nums.size() < 2){
             return;
         }
-        //1.½¨¶Ñ
+        //1.Â½Â¨Â¶Ã‘
         for(int i=0; i<nums.size(); ++i){
             _heapInsert(nums,i);
         }

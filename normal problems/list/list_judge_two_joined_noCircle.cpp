@@ -1,3 +1,6 @@
+/*
+ * 判断两个无环单链表是否相交
+ */
 #include <bits/stdc++.h>
 
 struct ListNode{

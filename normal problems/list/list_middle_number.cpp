@@ -1,5 +1,8 @@
-#include <bits/stdc++.h>
+/*
+ * 求单链表的中间节点
+ */
 
+#include <bits/stdc++.h>
 struct ListNode{
     ListNode *next;
     int data;

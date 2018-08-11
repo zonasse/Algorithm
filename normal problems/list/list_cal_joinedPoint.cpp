@@ -1,3 +1,6 @@
+/*
+ *  单链表计算相交点
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
