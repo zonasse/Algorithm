@@ -1,65 +1,15 @@
-public class Solution {
-    public String intToRoman(int num) {
-        StringBuilder sb = new StringBuilder();
-        while (num > 0) {
-             int value = getRoman(num, sb);
-            num -= value;
+class Solution {
+public:
+    string intToRoman(int num) {
+        string ret = "";
+        vector<int> nums = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
+        vector<string> str = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
+        for(int i=0; i<nums.size(); ++i){
+            while(num >= nums[i]){
+                num-=nums[i];
+                ret+=str[i];
+            }
         }
-        return sb.toString();
+        return ret;
     }
-
-    private int getRoman(int num, StringBuilder sb) {
-        if (num >= 1000) {
-            sb.append('M');
-            return 1000;
-        }
-         else if (num >= 900) {
-             sb.append('C');
-             return -100;
-         }
-         else if (num >= 500) {
-             sb.append('D');
-             return 500;
-         }
-         else if (num >= 400) {
-             sb.append('C');
-             return -100;
-         }
-         else if (num >= 100) {
-             sb.append('C');
-             return 100;
-         }
-         else if (num >= 90) {
-             sb.append('X');
-             return -10;
-         }
-         else if (num >= 50) {
-             sb.append('L');
-             return 50;
-         }
-         else if (num >= 40) {
-             sb.append('X');
-             return -10;
-         }
-         else if (num >= 10) {
-             sb.append('X');
-             return 10;
-         }
-         else if (num >= 9) {
-             sb.append('I');
-             return -1;
-         }
-         else if (num >= 5) {
-             sb.append('V');
-             return 5;
-         }
-         else if (num >= 4){
-             sb.append('I');
-             return -1;
-         }
-         else {
-             sb.append('I');
-             return 1;
-         }
-     }
- }
+};
