@@ -14,10 +14,10 @@ public:
             }
             mid = left + (right-left)/2;
             if(rotateArray[mid] >= rotateArray[left]){
-                //位于前一个数组中
+                //位于后一个数组中
                 left = mid;
             }else if(rotateArray[mid] <= rotateArray[right]){
-                //位于后一个数组中
+                //位于前一个数组中
                 right = mid;
             }
         }
