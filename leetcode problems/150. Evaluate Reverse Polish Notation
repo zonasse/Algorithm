@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int evalRPN(vector<string>& tokens) {
+        if(tokens.size() == 1) return atoi(tokens[0].c_str());
+        stack<int> num_stack;
+        for(int i=0; i<tokens.size(); ++i){
+            if(tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "*" && tokens[i] != "/"){
+                num_stack.push(atoi(tokens[i].c_str()));
+            }else{
+                int m = num_stack.top();
+                num_stack.pop();
+                int n = num_stack.top();
+                num_stack.pop();
+                if(tokens[i] == "+") num_stack.push(n+m);
+                if(tokens[i] == "-") num_stack.push(n-m);
+                if(tokens[i] == "*") num_stack.push(n*m);
+                if(tokens[i] == "/") num_stack.push(n/m);
+            }
+        }
+        return num_stack.top();
+    }
+};
