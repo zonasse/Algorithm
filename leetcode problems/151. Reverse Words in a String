@@ -1,0 +1,22 @@
+class Solution {
+public:
+    void reverseWords(string &s) {
+        if(s.empty()) return;
+        int index = 0,left = 0,right = 0;
+        while(index < s.size()){
+            while(index < s.size() && s[index] == ' ') index++;
+            if(index >= s.size()) break;
+            if(left != right) s[right++] = ' ';
+            left = right;
+            while(index < s.size() && s[index] != ' ') s[right++] = s[index++];
+            reversePart(s,left,right-1);
+        }
+        s.resize(right);
+        reversePart(s,0,s.size()-1);
+    }
+    void reversePart(string &s,int left,int right){
+        while(left < right){
+            swap(s[left++],s[right--]);
+        }
+    }
+};
