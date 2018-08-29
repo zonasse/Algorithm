@@ -1,0 +1,24 @@
+class Solution {
+public:
+    int maxProfit(int k, vector<int>& prices) {
+        if(prices.size() < 2) return 0;
+        int n = prices.size();
+        if(k >= n/2) return getMaxProfits2(prices);
+        vector<vector<int> > local(n+1,vector<int> (k+1,0));
+        vector<vector<int> > global(n+1,vector<int> (k+1,0));
+        for(int times = 1; times <= k; ++times){
+            for(int day = 1; day < n; ++day){
+                local[day][times] = max(global[day-1][times-1] + max(prices[day] - prices[day-1],0),local[day-1][times] + prices[day]-prices[day-1]);
+                global[day][times] = max(global[day-1][times],local[day][times]);
+            }
+        }
+        return global[n-1][k];
+    }
+    int getMaxProfits2(vector<int>& prices){
+        int res = 0;
+        for(int i=1; i<prices.size(); ++i){
+            res += (prices[i]-prices[i-1]) > 0 ? (prices[i]-prices[i-1]):0;
+        }
+        return res;
+    }
+};
