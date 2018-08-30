@@ -1,0 +1,15 @@
+class Solution {
+public:
+    int countPrimes(int n) {
+        vector<int> prime;
+        vector<bool> mark(n+1,false);
+        for(int i=2; i < n; ++i){
+            if(mark[i] == true) continue;
+            prime.push_back(i);
+            for(int j=i; j<n; j+=i){
+                mark[j] = true;
+            }
+        }
+        return prime.size();
+    }
+};
