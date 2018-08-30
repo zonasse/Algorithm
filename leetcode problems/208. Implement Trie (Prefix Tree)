@@ -1,0 +1,90 @@
+class TrieNode{
+public:
+    TrieNode *child[26];
+    int path;
+    int end;
+    TrieNode(){
+        path = 0;
+        end = 0;
+        for(auto &a : child) a = NULL;
+    }
+};
+
+class Trie {
+public:
+    /** Initialize your data structure here. */
+    Trie() {
+        root = new TrieNode();
+    }
+
+    /** Inserts a word into the trie. */
+    void insert(string word) {
+        if(word == "") return;
+        TrieNode *node = root;
+        for(int i=0; i<word.size(); ++i){
+            int index = word[i]-'a';
+            if(node->child[index] == NULL){
+                node->child[index] = new TrieNode();
+            }
+            node = node->child[index];
+            node->path++;
+        }
+        node->end++;
+    }
+    /** Delete a word if the word is in the trie. */
+    void deleteWord(string word){
+        if(search(word)){
+            TrieNode *node = root;
+            for(int i=0; i<word.size(); ++i){
+                int index = word[i] - 'a';
+                if(node->child[index]->path-- == 1){
+                    node->child[index] = NULL;
+                    return;
+                }
+                node = node->child[index];
+            }
+            node->end--;
+        }
+    }
+    /** Returns if the word is in the trie. */
+    bool search(string word) {
+        if(word == ""){
+            return false;
+        }
+        TrieNode *node = root;
+        for(int i=0; i<word.size(); ++i){
+            int index = word[i] - 'a';
+            if(node->child[index] == NULL){
+                return false;
+            }
+            node = node->child[index];
+        }
+        return node->end != 0;
+    }
+
+    /** Returns if there is any word in the trie that starts with the given prefix. */
+    bool startsWith(string prefix) {
+        if(prefix == ""){
+            return false;
+        }
+        TrieNode *node = root;
+        for(int i=0; i<prefix.size(); ++i){
+            int index = prefix[i] - 'a';
+            if(node->child[index] == NULL){
+                return false;
+            }
+            node = node->child[index];
+        }
+        return node->path > 0;
+    }
+private:
+    TrieNode *root;
+};
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie obj = new Trie();
+ * obj.insert(word);
+ * bool param_2 = obj.search(word);
+ * bool param_3 = obj.startsWith(prefix);
+ */
