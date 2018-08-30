@@ -1,0 +1,59 @@
+class Solution1 {
+public:
+    bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
+        vector<vector<int> > Graph(numCourses);
+        queue<int> Q;
+        vector<int> indegree(numCourses,0);
+        for(int i=0; i<prerequisites.size(); ++i){
+            pair<int,int> relation = prerequisites[i];
+            indegree[relation.first]++;
+            Graph[relation.second].push_back(relation.first);
+        }
+        for(int i=0; i<numCourses; ++i){
+            if(indegree[i] == 0){
+                Q.push(i);
+            }
+        }
+        int count = 0;
+        while(Q.empty() == false){
+            int cur = Q.front();
+            Q.pop();
+            count++;
+            for(int i=0; i<Graph[cur].size(); ++i){
+                int next = Graph[cur][i];
+                indegree[next]--;
+                if(indegree[next] == 0){
+                    Q.push(next);
+                }
+            }
+        }
+        return count == numCourses;
+    }
+};
+class Solution2 {
+public:
+    bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
+        vector<vector<int> > Graph(numCourses);
+        vector<int> visit(numCourses,0);
+        for(int i=0; i<prerequisites.size(); ++i){
+            pair<int,int> relation = prerequisites[i];
+            Graph[relation.second].push_back(relation.first);
+        }
+        for(int i=0; i<numCourses; ++i){
+            if(!dfs(Graph,visit,i)) return false;
+        }
+        return true;
+    }
+    bool dfs(vector<vector<int> > &Graph,vector<int> &visit,int cur){
+        if(visit[cur] == -1) return false;
+        if(visit[cur] == 1) return true;
+        visit[cur] = -1;
+        for(int i=0; i<Graph[cur].size(); ++i){
+            int next = Graph[cur][i];
+            if(!dfs(Graph,visit,next)) return false;
+        }
+        visit[cur] = 1;
+        return true;
+    }
+
+};
