@@ -1,0 +1,44 @@
+class Solution {
+public:
+    int maximumGap(vector<int>& nums) {
+        if(nums.size() < 2) return 0;
+        int len = nums.size();
+        int maxVal = INT_MIN;
+        int minVal = INT_MAX;
+        for(int i=0; i<len; ++i){
+            maxVal = max(maxVal,nums[i]);
+            minVal = min(minVal,nums[i]);
+        }
+        if(maxVal == minVal) return 0;
+        vector<int> maxs(len+1,0);
+        vector<int> mins(len+1,0);
+        vector<bool> hasNum(len+1,false);
+        for(int i=0; i<len; ++i){
+            int bucketNum = getBucketNum(nums[i],len,maxVal,minVal);
+            maxs[bucketNum] = hasNum[bucketNum] ? max(maxs[bucketNum],nums[i]) : nums[i];
+            mins[bucketNum] = hasNum[bucketNum] ? min(mins[bucketNum],nums[i]) : nums[i];
+            hasNum[bucketNum] = true;
+        }
+        int res = 0;
+        int lastMax = 0;
+        int i=0;
+        while(i <= len){
+            if(hasNum[i]){
+                lastMax = maxs[i];
+                i++;
+                break;
+            }
+        }
+        while(i <= len){
+            if(hasNum[i]){
+                res = max(res,mins[i]-lastMax);
+                lastMax = maxs[i];
+            }
+            i++;
+        }
+        return res;
+    }
+    int getBucketNum(long num,long len,long maxVal, long minVal){
+        return (int)((num-minVal)*len / (maxVal-minVal));
+    }
+};

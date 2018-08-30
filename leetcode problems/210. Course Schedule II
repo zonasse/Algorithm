@@ -1,0 +1,32 @@
+class Solution {
+public:
+    vector<int> findOrder(int numCourses, vector<pair<int, int>>& prerequisites) {
+        vector<vector<int> > Graph(numCourses);
+        vector<int> indegree(numCourses,0);
+        queue<int> Q;
+        vector<int> res;
+        int count = 0;
+        for(int i=0; i<prerequisites.size(); ++i){
+            pair<int,int> relation = prerequisites[i];
+            Graph[relation.second].push_back(relation.first);
+            indegree[relation.first]++;
+        }
+        for(int i=0; i<numCourses; ++i){
+            if(indegree[i] == 0) Q.push(i);
+        }
+        while(Q.empty() == false){
+            int cur = Q.front();
+            Q.pop();
+            res.push_back(cur);
+            count++;
+            for(int i=0; i<Graph[cur].size(); ++i){
+                int next = Graph[cur][i];
+                indegree[next]--;
+                if(indegree[next] == 0){
+                    Q.push(next);
+                }
+            }
+        }
+        return count == numCourses ? res : vector<int>(0);
+    }
+};

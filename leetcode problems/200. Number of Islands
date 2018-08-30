@@ -1,0 +1,58 @@
+class Solution1 {
+public:
+    int numIslands(vector<vector<char>>& grid) {
+        if(grid.size() == 0 || grid[0].size() == 0) return 0;
+        int res = 0;
+        int row = grid.size();
+        int col = grid[0].size();
+        for(int i=0; i<row; ++i){
+            for(int j=0; j<col; ++j){
+                if(grid[i][j] == '1'){
+                    dfs(grid,i,j);
+                    res++;
+                }
+            }
+        }
+        return res;
+    }
+    void dfs(vector<vector<char>>& grid,int curR,int curC){
+        static const int dx[] = {-1,1,0,0};
+        static const int dy[] = {0,0,-1,1};
+        for(int i=0; i<4; ++i){
+            int newR = curR+dx[i];
+            int newC = curC+dy[i];
+            if(newR >= 0 && newR < grid.size() && newC >= 0 && newC < grid[0].size() && grid[newR][newC] == '1'){
+                grid[newR][newC] = '0';
+                dfs(grid,newR,newC);
+            }
+        }
+    }
+};
+class Solution2 {
+public:
+    int numIslands(vector<vector<char>>& grid) {
+        if(grid.size() == 0 || grid[0].size() == 0) return 0;
+        int res = 0;
+        int row = grid.size();
+        int col = grid[0].size();
+        vector<vector<bool> > mark(row+1,vector<bool> (col+1,false));
+        for(int i=0; i<row; ++i){
+            for(int j=0; j<col; ++j){
+                if(grid[i][j] == '1' && !mark[i][j]){
+                    dfs(grid,mark,i,j);
+                    res++;
+                }
+            }
+        }
+        return res;
+    }
+    void dfs(vector<vector<char>>& grid,vector<vector<bool> >& mark,int curR,int curC){
+        if(curR < 0 || curR >= grid.size() || curC < 0 || curC >= grid[0].size() || mark[curR][curC] || grid[curR][curC] == '0') return;
+        mark[curR][curC] = true;
+        static const int dx[] = {-1,1,0,0};
+        static const int dy[] = {0,0,-1,1};
+        for(int i=0; i<4; ++i){
+            dfs(grid,mark,curR+dx[i],curC+dy[i]);
+        }
+    }
+};

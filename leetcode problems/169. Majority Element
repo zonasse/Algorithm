@@ -1,0 +1,20 @@
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        if(nums.empty()) return -1;
+        int times = 1;
+        int cur = nums[0];
+        for(int i=1; i<nums.size(); ++i){
+            if(nums[i] == cur){
+                times++;
+            }else{
+                times--;
+                if(times == 0){
+                    times = 1;
+                    cur = nums[i];
+                }
+            }
+        }
+        return cur;
+    }
+};

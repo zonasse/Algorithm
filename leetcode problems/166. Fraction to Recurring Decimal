@@ -1,0 +1,30 @@
+class Solution {
+public:
+    string fractionToDecimal(int numerator, int denominator) {
+        int flag1 = numerator >= 0 ? 1:-1;
+        int flag2 = denominator >= 0 ? 1:-1;
+        long long num = abs((long long) numerator);
+        long long den = abs((long long) denominator);
+        long long out = num / den;
+        long long rem = num % den;
+        unordered_map<long long,int> M;
+        string res = to_string(out);
+        if(flag1 *flag2 == -1 && (out > 0 || rem > 0)) res = "-" + res;
+        if(rem == 0) return res;
+        res += ".";
+        string res2 = "";
+        int pos = 0;
+        while(rem){
+            if(M.find(rem) != M.end()){
+                res2.insert(M[rem],"(");
+                res2 += ")";
+                return res+res2;
+            }
+            M[rem] = pos;
+            res2 += to_string((rem*10)/den);
+            rem = (rem * 10)%den;
+            pos++;
+        }
+        return res + res2;
+    }
+};
