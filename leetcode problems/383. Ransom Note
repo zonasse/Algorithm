@@ -1,0 +1,18 @@
+class Solution {
+public:
+    bool canConstruct(string ransomNote, string magazine) {
+        int mark[256] = {0};
+        for(int i=0; i<ransomNote.size(); ++i){
+            mark[ransomNote[i]]++;
+        }
+        for(int i=0; i<magazine.size(); ++i){
+            if(mark[magazine[i]] != 0){
+                mark[magazine[i]]--;
+            }
+        }
+        for(int i=0; i<256; ++i){
+            if(mark[i] != 0) return false;
+        }
+        return true;
+    }
+};
