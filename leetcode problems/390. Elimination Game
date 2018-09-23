@@ -1,0 +1,14 @@
+class Solution {
+public:
+    int lastRemaining(int n) {
+        return helper(n,true);
+    }
+    int helper(int n,int left2right){
+        if(n == 1) return 1;
+        if(left2right){
+            return 2*helper(n/2,!left2right);
+        }else{
+            return 2*helper(n/2,!left2right) + n%2 - 1;
+        }
+    }
+};
