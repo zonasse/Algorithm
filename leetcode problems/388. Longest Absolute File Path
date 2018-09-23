@@ -1,0 +1,29 @@
+class Solution {
+public:
+    int lengthLongestPath(string input) {
+        int res = 0;
+        int level = 0;
+        unordered_map<int,int> M;
+        M[0] = 0;
+        int n = input.size();
+        for(int i=0; i<n; ++i){
+            int start = i;
+            while(i < n && input[i] != '\t' && input[i] != '\n'){
+                i++;
+            }
+            if(i >= n || input[i] == '\n'){
+                string temp = input.substr(start,i-start);
+                if(temp.find('.') != string::npos){
+                    res = max(res,M[level] + (int)temp.size());
+                }else{
+                    level++;
+                    M[level] = M[level-1] + (int)temp.size() + 1;
+                }
+                level = 0;
+            }else{
+                level++;
+            }
+        }
+        return res;
+    }
+};
