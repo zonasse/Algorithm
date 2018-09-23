@@ -1,0 +1,16 @@
+class Solution {
+public:
+    char findTheDifference(string s, string t) {
+        unordered_map<char,int> M;
+        for(char ch : s){
+            M[ch]++;
+        }
+        for(char ch : t){
+            if(M.find(ch) == M.end() || M[ch] == 0){
+                return ch;
+            }
+            M[ch]--;
+        }
+        return '\0';
+    }
+};
