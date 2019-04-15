@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/链表/反转单向和双向链表.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/链表/反转部分单向链表.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/链表/反转单向和双向链表.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
+            <state relative-caret-position="807">
               <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/链表/反转部分单向链表.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -83,6 +93,7 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/链表/删除链表的中间节点和a|b处的节点.cpp" />
         <option value="$PROJECT_DIR$/链表/反转单向和双向链表.cpp" />
+        <option value="$PROJECT_DIR$/链表/反转部分单向链表.cpp" />
       </list>
     </option>
   </component>
@@ -169,12 +180,12 @@
       <workItem from="1555051740839" duration="6579000" />
       <workItem from="1555059640864" duration="829000" />
       <workItem from="1555167913358" duration="15644000" />
-      <workItem from="1555310716731" duration="3178000" />
+      <workItem from="1555310716731" duration="4679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28524000" />
+    <option name="totallyTimeSpent" value="30025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="379" y="23" width="840" height="704" extended-state="0" />
@@ -391,8 +402,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/链表/反转单向和双向链表.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
+        <state relative-caret-position="807">
           <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/链表/反转部分单向链表.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
