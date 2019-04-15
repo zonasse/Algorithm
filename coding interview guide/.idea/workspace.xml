@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/链表/打印两个有序链表的公共部分.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/链表/删除链表的中间节点和a|b处的节点.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,17 +31,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="227">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/链表/打印两个有序链表的公共部分.cpp">
+        <entry file="file://$PROJECT_DIR$/链表/删除链表的中间节点和a|b处的节点.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+            <state relative-caret-position="317">
+              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+              <folding>
+                <element signature="e#40#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,13 +71,14 @@
         <option value="$PROJECT_DIR$/栈和队列/构造数组的MaxTree.cpp" />
         <option value="$PROJECT_DIR$/栈和队列/求最大子矩阵的大小.cpp" />
         <option value="$PROJECT_DIR$/栈和队列/最大值减去最小值小于或等于num的子数组数量.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/链表/打印两个有序链表的公共部分.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/链表/删除链表的中间节点和a|b处的节点.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="108" />
+    <option name="x" value="379" />
     <option name="y" value="23" />
     <option name="width" value="840" />
     <option name="height" value="704" />
@@ -155,15 +160,15 @@
       <workItem from="1555051740839" duration="6579000" />
       <workItem from="1555059640864" duration="829000" />
       <workItem from="1555167913358" duration="15644000" />
-      <workItem from="1555310716731" duration="981000" />
+      <workItem from="1555310716731" duration="2668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26327000" />
+    <option name="totallyTimeSpent" value="28014000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="23" width="840" height="704" extended-state="0" />
+    <frame x="379" y="23" width="840" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21553884" />
@@ -351,17 +356,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/链表/打印两个有序链表的公共部分.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="190">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/链表/打印两个有序链表的公共部分.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        <state relative-caret-position="227">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/链表/删除链表的中间节点和a|b处的节点.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
