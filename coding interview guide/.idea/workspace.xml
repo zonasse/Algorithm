@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/链表/将单向链表按某值划分成左边小、中间相等、右边大的形式.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/链表/复制含有随机指针节点的链表.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -88,11 +88,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/链表/将单向链表按某值划分成左边小、中间相等、右边大的形式.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="358">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/链表/复制含有随机指针节点的链表.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+              <folding>
+                <element signature="e#39#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,13 +139,14 @@
         <option value="$PROJECT_DIR$/链表/约瑟夫环.cpp" />
         <option value="$PROJECT_DIR$/链表/判断回文链表.cpp" />
         <option value="$PROJECT_DIR$/链表/将单向链表按某值划分成左边小、中间相等、右边大的形式.cpp" />
+        <option value="$PROJECT_DIR$/链表/复制含有随机指针节点的链表.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="393" />
+    <option name="x" value="432" />
     <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="width" value="1280" />
     <option name="height" value="701" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -213,15 +226,15 @@
       <workItem from="1555051740839" duration="6579000" />
       <workItem from="1555059640864" duration="829000" />
       <workItem from="1555167913358" duration="15644000" />
-      <workItem from="1555310716731" duration="8181000" />
+      <workItem from="1555310716731" duration="10172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33527000" />
+    <option name="totallyTimeSpent" value="35518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="704" extended-state="6" />
+    <frame x="0" y="25" width="1280" height="701" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13893376" />
@@ -466,8 +479,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/链表/将单向链表按某值划分成左边小、中间相等、右边大的形式.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="358">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/链表/复制含有随机指针节点的链表.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
