@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/栈和队列/合并两个有序的单链表.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/栈和队列/按照左右半区的方式重新组合单链表.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state>
               <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
@@ -52,26 +52,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/栈和队列/单链表的选择排序.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
+            <state relative-caret-position="27">
               <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/栈和队列/向有序的环形单链表中插入新节点.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/栈和队列/合并两个有序的单链表.cpp">
+        <entry file="file://$PROJECT_DIR$/栈和队列/按照左右半区的方式重新组合单链表.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="274">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -116,11 +107,12 @@
         <option value="$PROJECT_DIR$/栈和队列/单链表的选择排序.cpp" />
         <option value="$PROJECT_DIR$/栈和队列/向有序的环形单链表中插入新节点.cpp" />
         <option value="$PROJECT_DIR$/栈和队列/合并两个有序的单链表.cpp" />
+        <option value="$PROJECT_DIR$/栈和队列/按照左右半区的方式重新组合单链表.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="264" />
+    <option name="x" value="791" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="707" />
@@ -166,7 +158,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -209,15 +201,15 @@
       <workItem from="1555167913358" duration="15644000" />
       <workItem from="1555310716731" duration="12337000" />
       <workItem from="1555381964295" duration="7747000" />
-      <workItem from="1555404429534" duration="3825000" />
+      <workItem from="1555404429534" duration="4962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49255000" />
+    <option name="totallyTimeSpent" value="50392000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="264" y="23" width="1280" height="707" extended-state="0" />
+    <frame x="76" y="23" width="1280" height="707" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22394137" />
@@ -518,7 +510,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state>
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
@@ -533,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/栈和队列/单链表的选择排序.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/栈和队列/向有序的环形单链表中插入新节点.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -549,8 +534,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/栈和队列/合并两个有序的单链表.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="217">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/栈和队列/单链表的选择排序.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/栈和队列/按照左右半区的方式重新组合单链表.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
