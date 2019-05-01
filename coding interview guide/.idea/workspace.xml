@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/二叉树/找到二叉树中的最大搜索二叉子树.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/找到二叉树中符合搜索二叉树条件的最大拓扑结构.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
+            <state relative-caret-position="307">
               <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
             </state>
           </provider>
@@ -40,11 +40,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/二叉树/找到二叉树中的最大搜索二叉子树.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+            <state relative-caret-position="525">
+              <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/二叉树/找到二叉树中符合搜索二叉树条件的最大拓扑结构.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -107,8 +116,9 @@
         <option value="$PROJECT_DIR$/二叉树/二叉树的序列化和反序列化.cpp" />
         <option value="$PROJECT_DIR$/二叉树/Morris遍历二叉树.cpp" />
         <option value="$PROJECT_DIR$/二叉树/在二叉树中找到累加和为指定值的最长路径长度.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/二叉树/找到二叉树中的最大搜索二叉子树.cpp" />
+        <option value="$PROJECT_DIR$/二叉树/找到二叉树中符合搜索二叉树条件的最大拓扑结构.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -116,7 +126,7 @@
     <option name="x" value="81" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -205,29 +215,29 @@
       <workItem from="1555404429534" duration="5606000" />
       <workItem from="1555566583702" duration="2402000" />
       <workItem from="1555816718338" duration="7000" />
-      <workItem from="1556677577166" duration="11927000" />
+      <workItem from="1556677577166" duration="13358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65372000" />
+    <option name="totallyTimeSpent" value="66803000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="23" width="1280" height="726" extended-state="0" />
+    <frame x="81" y="23" width="1280" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23045602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23045602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" weight="0.2621035" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.26064736" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31719533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49837133" weight="0.37896493" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49837133" weight="0.3781942" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008143" side_tool="true" weight="0.48448277" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -273,11 +283,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/exception">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1091" />
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdexcept">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -608,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/二叉树/Morris遍历二叉树.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -632,10 +630,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/找到二叉树中符合搜索二叉树条件的最大拓扑结构.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/二叉树/找到二叉树中的最大搜索二叉子树.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        <state relative-caret-position="525">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
