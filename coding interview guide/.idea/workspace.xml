@@ -12,8 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/二叉树/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/二叉树/二叉树的序列化和反序列化.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉树的序列化和反序列化.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -54,16 +52,7 @@
         <entry file="file://$PROJECT_DIR$/二叉树/二叉树的序列化和反序列化.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/二叉树/test.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -123,8 +112,8 @@
         <option value="$PROJECT_DIR$/二叉树/非递归方式实现二叉树的遍历.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/二叉树/如何较为直观地打印二叉树.cpp" />
-        <option value="$PROJECT_DIR$/二叉树/二叉树的序列化和反序列化.cpp" />
         <option value="$PROJECT_DIR$/二叉树/test.cpp" />
+        <option value="$PROJECT_DIR$/二叉树/二叉树的序列化和反序列化.cpp" />
       </list>
     </option>
   </component>
@@ -220,12 +209,12 @@
       <workItem from="1555404429534" duration="5606000" />
       <workItem from="1555566583702" duration="2402000" />
       <workItem from="1555816718338" duration="7000" />
-      <workItem from="1556677577166" duration="2483000" />
+      <workItem from="1556677577166" duration="2754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55928000" />
+    <option name="totallyTimeSpent" value="56199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="329" width="1280" height="707" extended-state="0" />
@@ -602,7 +591,7 @@
     <entry file="file://$PROJECT_DIR$/二叉树/二叉树的序列化和反序列化.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
