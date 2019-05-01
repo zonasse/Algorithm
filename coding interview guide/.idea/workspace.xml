@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/二叉树/非递归方式实现二叉树的遍历.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/如何较为直观地打印二叉树.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,17 +31,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="346">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/二叉树/如何较为直观地打印二叉树.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+              <folding>
+                <element signature="e#39#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/二叉树/非递归方式实现二叉树的遍历.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1789">
-              <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+            <state relative-caret-position="160">
+              <caret line="77" selection-start-line="77" selection-end-line="85" selection-end-column="27" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -89,8 +101,9 @@
         <option value="$PROJECT_DIR$/栈和队列/向有序的环形单链表中插入新节点.cpp" />
         <option value="$PROJECT_DIR$/栈和队列/合并两个有序的单链表.cpp" />
         <option value="$PROJECT_DIR$/栈和队列/按照左右半区的方式重新组合单链表.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/二叉树/非递归方式实现二叉树的遍历.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/二叉树/如何较为直观地打印二叉树.cpp" />
       </list>
     </option>
   </component>
@@ -107,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,6 +145,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,23 +197,25 @@
       <workItem from="1555310716731" duration="12337000" />
       <workItem from="1555381964295" duration="7747000" />
       <workItem from="1555404429534" duration="5606000" />
-      <workItem from="1555566583702" duration="1362000" />
+      <workItem from="1555566583702" duration="2402000" />
+      <workItem from="1555816718338" duration="7000" />
+      <workItem from="1556677577166" duration="1537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52398000" />
+    <option name="totallyTimeSpent" value="54982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="707" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22801302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23697068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.4775862" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.16206896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21753794" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,17 +546,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="346">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/二叉树/非递归方式实现二叉树的遍历.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1789">
-          <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        <state relative-caret-position="160">
+          <caret line="77" selection-start-line="77" selection-end-line="85" selection-end-column="27" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/如何较为直观地打印二叉树.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
