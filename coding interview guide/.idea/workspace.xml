@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/二叉树/判断t1树中是否有与t2树拓扑结构完全相同的子树.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/根据后序数组重建搜索二叉树.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/二叉树/判断t1树中是否有与t2树拓扑结构完全相同的子树.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="13" selection-end-column="2" />
+              <folding>
+                <element signature="e#39#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/二叉树/根据后序数组重建搜索二叉树.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -112,14 +123,15 @@
         <option value="$PROJECT_DIR$/二叉树/二叉树的按层打印和zigzag打印.cpp" />
         <option value="$PROJECT_DIR$/二叉树/调整搜索二叉树中两个错误的节点.cpp" />
         <option value="$PROJECT_DIR$/二叉树/判断t1树是否包含t2树全部的拓扑结构.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/二叉树/判断t1树中是否有与t2树拓扑结构完全相同的子树.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/二叉树/根据后序数组重建搜索二叉树.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="502" />
-    <option name="y" value="172" />
+    <option name="x" value="170" />
+    <option name="y" value="141" />
     <option name="width" value="1280" />
     <option name="height" value="716" />
   </component>
@@ -210,15 +222,15 @@
       <workItem from="1555404429534" duration="5606000" />
       <workItem from="1555566583702" duration="2402000" />
       <workItem from="1555816718338" duration="7000" />
-      <workItem from="1556677577166" duration="22113000" />
+      <workItem from="1556677577166" duration="23338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75558000" />
+    <option name="totallyTimeSpent" value="76783000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="502" y="172" width="1280" height="716" extended-state="0" />
+    <frame x="170" y="141" width="1280" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23045602" />
@@ -283,7 +295,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/栈和队列/猫狗队列.cpp" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stack">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -650,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/二叉树/在二叉树中找到累加和为指定值的最长路径长度.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -676,8 +680,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/二叉树/判断t1树中是否有与t2树拓扑结构完全相同的子树.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/根据后序数组重建搜索二叉树.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
