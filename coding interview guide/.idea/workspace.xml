@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/二叉树/找到二叉树中符合搜索二叉树条件的最大拓扑结构.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/二叉树的按层打印和zigzag打印.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,17 +31,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="113">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/二叉树/找到二叉树中的最大搜索二叉子树.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+              <folding>
+                <element signature="e#39#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/二叉树/找到二叉树中的最大搜索二叉子树.cpp">
+        <entry file="file://$PROJECT_DIR$/二叉树/二叉树的按层打印和zigzag打印.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+            <state relative-caret-position="189">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -119,11 +131,12 @@
         <option value="$PROJECT_DIR$/二叉树/找到二叉树中的最大搜索二叉子树.cpp" />
         <option value="$PROJECT_DIR$/二叉树/找到二叉树中符合搜索二叉树条件的最大拓扑结构.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/二叉树/二叉树的按层打印和zigzag打印.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
+    <option name="x" value="481" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="714" />
@@ -215,23 +228,22 @@
       <workItem from="1555404429534" duration="5606000" />
       <workItem from="1555566583702" duration="2402000" />
       <workItem from="1555816718338" duration="7000" />
-      <workItem from="1556677577166" duration="13358000" />
+      <workItem from="1556677577166" duration="15421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66803000" />
+    <option name="totallyTimeSpent" value="68866000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="23" width="1280" height="714" extended-state="0" />
-    <editor active="true" />
+    <frame x="481" y="23" width="1280" height="714" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23045602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.26064736" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.5008518" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31719533" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,13 +295,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/stdexcept">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/coding_interview_guide.dir/栈和队列/如何仅用递归函数和栈操作逆序一个栈.cpp.o" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
@@ -637,17 +642,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/二叉树/找到二叉树中的最大搜索二叉子树.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state>
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/找到二叉树中的最大搜索二叉子树.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        <state relative-caret-position="113">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/二叉树的按层打印和zigzag打印.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
