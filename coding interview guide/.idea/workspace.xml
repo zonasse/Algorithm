@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/二叉树/二叉树节点间的最大距离.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/通过先序和中序数组生成后序数组.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -28,11 +28,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="164">
               <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/二叉树/通过先序和中序数组生成后序数组.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding>
+                <element signature="e#39#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/栈和队列/设计由两个栈组成的队列.cpp" />
         <option value="$PROJECT_DIR$/栈和队列/设计一个有getMin功能的栈.cpp" />
         <option value="$PROJECT_DIR$/栈和队列/如何仅用递归函数和栈操作逆序一个栈.cpp" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -94,13 +105,14 @@
         <option value="$PROJECT_DIR$/二叉树/在二叉树中找到一个节点的后继结点.cpp" />
         <option value="$PROJECT_DIR$/二叉树/在二叉树中找到两个节点的最近公共祖先.cpp" />
         <option value="$PROJECT_DIR$/二叉树/Tarjan算法与并查集解决二叉树节点间最近公共祖先的批量查询问题.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/二叉树/二叉树节点间的最大距离.cpp" />
+        <option value="$PROJECT_DIR$/二叉树/通过先序和中序数组生成后序数组.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="93" />
+    <option name="x" value="748" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="716" />
@@ -192,24 +204,23 @@
       <workItem from="1555404429534" duration="5606000" />
       <workItem from="1555566583702" duration="2402000" />
       <workItem from="1555816718338" duration="7000" />
-      <workItem from="1556677577166" duration="37508000" />
+      <workItem from="1556677577166" duration="38892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90953000" />
+    <option name="totallyTimeSpent" value="92337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="23" width="1280" height="716" extended-state="0" />
-    <editor active="true" />
+    <frame x="748" y="23" width="1280" height="716" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.29541597" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32427844" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" weight="0.29541597" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.32427844" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -288,20 +299,15 @@
           <line>28</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/二叉树/通过先序和中序数组生成后序数组.cpp</url>
+          <line>29</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/栈和队列/设计由两个栈组成的队列.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/deque">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -585,16 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/非递归方式实现二叉树的遍历.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="89" selection-end-column="3" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/二叉树/调整搜索二叉树中两个错误的节点.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -713,10 +709,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/非递归方式实现二叉树的遍历.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="75" selection-start-line="75" selection-end-line="89" selection-end-column="3" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="164">
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/通过先序和中序数组生成后序数组.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
