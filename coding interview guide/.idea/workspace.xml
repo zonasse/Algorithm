@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/二叉树/根据有序数组生成平衡搜索二叉树.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/在二叉树中找到一个节点的后继结点.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/在二叉树中找到两个节点的最近公共祖先.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -28,11 +29,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="177">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/二叉树/在二叉树中找到一个节点的后继结点.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="15" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/二叉树/在二叉树中找到两个节点的最近公共祖先.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+              <folding>
+                <element signature="e#40#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/二叉树/在二叉树中找到累加和为指定值的最长路径长度.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="34" selection-start-line="34" selection-end-line="54" selection-end-column="1" />
+            <state>
+              <caret selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -103,16 +125,18 @@
         <option value="$PROJECT_DIR$/二叉树/判断t1树中是否有与t2树拓扑结构完全相同的子树.cpp" />
         <option value="$PROJECT_DIR$/二叉树/根据后序数组重建搜索二叉树.cpp" />
         <option value="$PROJECT_DIR$/二叉树/判断一颗二叉树是否为搜索二叉树和完全二叉树.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/二叉树/根据有序数组生成平衡搜索二叉树.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/二叉树/在二叉树中找到一个节点的后继结点.cpp" />
+        <option value="$PROJECT_DIR$/二叉树/在二叉树中找到两个节点的最近公共祖先.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="403" />
+    <option name="x" value="218" />
     <option name="y" value="23" />
-    <option name="width" value="849" />
-    <option name="height" value="716" />
+    <option name="width" value="1280" />
+    <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -201,23 +225,23 @@
       <workItem from="1555404429534" duration="5606000" />
       <workItem from="1555566583702" duration="2402000" />
       <workItem from="1555816718338" duration="7000" />
-      <workItem from="1556677577166" duration="28355000" />
+      <workItem from="1556677577166" duration="31249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81800000" />
+    <option name="totallyTimeSpent" value="84694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="403" y="23" width="849" height="716" extended-state="0" />
+    <frame x="218" y="23" width="1280" height="717" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20326224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" weight="0.29541597" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.50933784" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3237288" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -278,14 +302,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/栈和队列/用一个栈实现另一个栈的排序.h" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/栈和队列/设计一个有getMin功能的栈.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -660,16 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/在二叉树中找到累加和为指定值的最长路径长度.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="34" selection-start-line="34" selection-end-line="54" selection-end-column="1" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/二叉树/判断一颗二叉树是否为搜索二叉树和完全二叉树.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -692,8 +698,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="177">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/在二叉树中找到累加和为指定值的最长路径长度.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/在二叉树中找到一个节点的后继结点.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/在二叉树中找到两个节点的最近公共祖先.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
