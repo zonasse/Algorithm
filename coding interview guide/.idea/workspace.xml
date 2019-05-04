@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/递归和动态规划/斐波那契数列系列问题的递归和动态规划.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/递归和动态规划/矩阵的最小路径和.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,17 +31,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="312">
               <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/递归和动态规划/斐波那契数列系列问题的递归和动态规划.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="78" column="29" lean-forward="true" selection-start-line="78" selection-start-column="29" selection-end-line="79" selection-end-column="30" />
+            <state relative-caret-position="233">
+              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+              <folding>
+                <element signature="e#39#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/递归和动态规划/矩阵的最小路径和.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
               <folding>
                 <element signature="e#39#56#0" expanded="true" />
               </folding>
@@ -57,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/栈和队列/猫狗队列.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/栈和队列/用一个栈实现另一个栈的排序.h" />
         <option value="$PROJECT_DIR$/栈和队列/用一个栈实现另一个栈的排序.cpp" />
@@ -106,8 +117,9 @@
         <option value="$PROJECT_DIR$/二叉树/通过先序和中序数组生成后序数组.cpp" />
         <option value="$PROJECT_DIR$/二叉树/统计和生成所有不同的二叉树.cpp" />
         <option value="$PROJECT_DIR$/二叉树/统计完全二叉树的节点数.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/递归和动态规划/斐波那契数列系列问题的递归和动态规划.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/递归和动态规划/矩阵的最小路径和.cpp" />
       </list>
     </option>
   </component>
@@ -200,12 +212,12 @@
       <workItem from="1555566583702" duration="2402000" />
       <workItem from="1555816718338" duration="7000" />
       <workItem from="1556677577166" duration="42480000" />
-      <workItem from="1556956260661" duration="3040000" />
+      <workItem from="1556956260661" duration="4061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98965000" />
+    <option name="totallyTimeSpent" value="99986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="712" extended-state="6" />
@@ -304,13 +316,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/栈和队列/如何仅用递归函数和栈操作逆序一个栈.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/栈和队列/最大值减去最小值小于或等于num的子数组数量.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -716,17 +721,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/递归和动态规划/斐波那契数列系列问题的递归和动态规划.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="312">
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/递归和动态规划/斐波那契数列系列问题的递归和动态规划.cpp">
+    <entry file="file://$PROJECT_DIR$/递归和动态规划/矩阵的最小路径和.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="78" column="29" lean-forward="true" selection-start-line="78" selection-start-column="29" selection-end-line="79" selection-end-column="30" />
+        <state relative-caret-position="740">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
           <folding>
             <element signature="e#39#56#0" expanded="true" />
           </folding>
