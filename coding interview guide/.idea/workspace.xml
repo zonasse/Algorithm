@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/递归和动态规划/字符串的交错组成.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/递归和动态规划/龙与地下城游戏问题.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/递归和动态规划/数字字符串转换为字母组合的种数.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -33,18 +32,30 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="89">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/递归和动态规划/龙与地下城游戏问题.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#40#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/递归和动态规划/龙与地下城游戏问题.cpp">
+        <entry file="file://$PROJECT_DIR$/递归和动态规划/数字字符串转换为字母组合的种数.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="1133">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
               <folding>
-                <element signature="e#40#59#0" expanded="true" />
+                <element signature="e#39#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/链表/删除链表的中间节点和a|b处的节点.cpp" />
         <option value="$PROJECT_DIR$/链表/反转单向和双向链表.cpp" />
         <option value="$PROJECT_DIR$/链表/反转部分单向链表.cpp" />
         <option value="$PROJECT_DIR$/链表/约瑟夫环.cpp" />
@@ -109,6 +119,7 @@
         <option value="$PROJECT_DIR$/递归和动态规划/字符串的交错组成.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/龙与地下城游戏问题.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/递归和动态规划/数字字符串转换为字母组合的种数.cpp" />
       </list>
     </option>
   </component>
@@ -201,12 +212,12 @@
       <workItem from="1555566583702" duration="2402000" />
       <workItem from="1555816718338" duration="7000" />
       <workItem from="1556677577166" duration="42480000" />
-      <workItem from="1556956260661" duration="24090000" />
+      <workItem from="1556956260661" duration="25448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120015000" />
+    <option name="totallyTimeSpent" value="121373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -310,13 +321,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/链表/约瑟夫环.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/链表/反转部分单向链表.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -737,19 +741,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/递归和动态规划/龙与地下城游戏问题.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="214">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/递归和动态规划/龙与地下城游戏问题.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="89">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/递归和动态规划/数字字符串转换为字母组合的种数.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1133">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
           <folding>
-            <element signature="e#40#59#0" expanded="true" />
+            <element signature="e#39#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
