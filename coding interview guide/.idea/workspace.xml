@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/递归和动态规划/最长公共子串问题.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/递归和动态规划/最长公共子串问题.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/递归和动态规划/最长公共子串问题.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/递归和动态规划/最长公共子串问题.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="33">
+              <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -105,8 +105,8 @@
         <option value="$PROJECT_DIR$/递归和动态规划/最长递增子序列.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/汉诺塔问题.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/最长公共子序列问题.cpp" />
-        <option value="$PROJECT_DIR$/递归和动态规划/最长公共子串问题.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/递归和动态规划/最长公共子串问题.cpp" />
       </list>
     </option>
   </component>
@@ -199,12 +199,12 @@
       <workItem from="1555566583702" duration="2402000" />
       <workItem from="1555816718338" duration="7000" />
       <workItem from="1556677577166" duration="42480000" />
-      <workItem from="1556956260661" duration="14792000" />
+      <workItem from="1556956260661" duration="16100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110717000" />
+    <option name="totallyTimeSpent" value="112025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -214,13 +214,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.27147767" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918568" visible="true" weight="0.40378007" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22508591" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49837133" weight="0.37457046" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49837133" weight="0.46391752" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008143" side_tool="true" weight="0.48448277" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -741,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/递归和动态规划/最长公共子串问题.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="33">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>

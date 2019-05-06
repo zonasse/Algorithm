@@ -44,11 +44,47 @@ string longestCommonSubString(string s1,string s2){
     }
     return s1.substr(end-maxlen+1,maxlen);
 }
+/*
+ * 最优解，空间复杂度O(1)
+ */
+string longestCommonSubstr2(string s1,string s2){
+    if(s1.size() == 0 || s2.size() == 0) return "";
+    int row = 0;
+    int col = s2.size()-1;
+    int maxLen = 0;
+    int end = 0;
+    while(row < s1.size()){
+        int i=row;
+        int j=col;
+        int length = 0;
+        while(i < s1.size() && j < s2.size()){
+            if(s1[i] == s2[j]){
+                length++;
+            }else{
+                length = 0;
+            }
+            if(length > maxLen){
+                maxLen = length;
+                end = i;
+            }
+            i++;
+            j++;
+        }
+        if(col == 0){
+            row++;
+        }else{
+            col--;
+        }
 
+    }
+    return s1.substr(end-maxLen+1,maxLen);
+
+}
 int main(){
     string s1 = "abcde";
     string s2 = "bebcd";
     cout<<longestCommonSubString(s1,s2)<<endl;
+    cout<<longestCommonSubstr2(s1,s2)<<endl;
 
     return 0;
 }
