@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/字符串问题/找到被指的新类型字符.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/字符串问题/最小包含子串的长度.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,19 +31,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="243">
               <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/字符串问题/找到被指的新类型字符.cpp">
+        <entry file="file://$PROJECT_DIR$/字符串问题/最小包含子串的长度.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="121">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding>
-                <element signature="e#39#58#0" expanded="true" />
+                <element signature="e#40#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/二叉树/如何较为直观地打印二叉树.cpp" />
         <option value="$PROJECT_DIR$/二叉树/test.cpp" />
         <option value="$PROJECT_DIR$/二叉树/二叉树的序列化和反序列化.cpp" />
         <option value="$PROJECT_DIR$/二叉树/Morris遍历二叉树.cpp" />
@@ -106,13 +105,14 @@
         <option value="$PROJECT_DIR$/字符串问题/公式字符串求值.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/拼接所有字符串产生字典顺序最小的大写字符串.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/找到字符串的最长无重复子串.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/字符串问题/找到被指的新类型字符.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/字符串问题/最小包含子串的长度.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="83" />
+    <option name="x" value="129" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="707" />
@@ -227,23 +227,22 @@
       <workItem from="1556956260661" duration="31551000" />
       <workItem from="1557367211359" duration="202000" />
       <workItem from="1557367417516" duration="4801000" />
-      <workItem from="1557414319088" duration="18818000" />
+      <workItem from="1557414319088" duration="20759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151297000" />
+    <option name="totallyTimeSpent" value="153238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="578" y="23" width="1280" height="707" extended-state="0" />
-    <editor active="true" />
+    <frame x="129" y="23" width="1280" height="707" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31921825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31921825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.36034483" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.36034483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31034482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,13 +341,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="894" column="40" selection-start-line="894" selection-start-column="40" selection-end-line="894" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/二叉树/根据后序数组重建搜索二叉树.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
@@ -802,19 +794,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/字符串问题/找到被指的新类型字符.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
+        <state relative-caret-position="243">
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/字符串问题/找到被指的新类型字符.cpp">
+    <entry file="file://$PROJECT_DIR$/字符串问题/最小包含子串的长度.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="121">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
           <folding>
-            <element signature="e#39#58#0" expanded="true" />
+            <element signature="e#40#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
