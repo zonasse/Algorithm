@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/位运算/二进制表达式中1的个数.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/位运算/在其他数都出现偶数次的数组中找到出现奇数次的数.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,37 +31,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="137">
               <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/位运算/不用额外变量交换两个整数的值.cpp">
+        <entry file="file://$PROJECT_DIR$/位运算/在其他数都出现偶数次的数组中找到出现奇数次的数.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/位运算/二进制表达式中1的个数.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/字符串问题/字符串匹配问题.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-290">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="521">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding>
-                <element signature="e#40#57#0" expanded="true" />
+                <element signature="e#39#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/二叉树/找到二叉树中的最大搜索二叉子树.cpp" />
         <option value="$PROJECT_DIR$/二叉树/找到二叉树中符合搜索二叉树条件的最大拓扑结构.cpp" />
         <option value="$PROJECT_DIR$/二叉树/二叉树的按层打印和zigzag打印.cpp" />
         <option value="$PROJECT_DIR$/二叉树/调整搜索二叉树中两个错误的节点.cpp" />
@@ -124,12 +106,13 @@
         <option value="$PROJECT_DIR$/字符串问题/字符串匹配问题.cpp" />
         <option value="$PROJECT_DIR$/位运算/不用额外变量交换两个整数的值.cpp" />
         <option value="$PROJECT_DIR$/位运算/二进制表达式中1的个数.cpp" />
+        <option value="$PROJECT_DIR$/位运算/在其他数都出现偶数次的数组中找到出现奇数次的数.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="530" />
+    <option name="x" value="14" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="707" />
@@ -244,15 +227,15 @@
       <workItem from="1556956260661" duration="31551000" />
       <workItem from="1557367211359" duration="202000" />
       <workItem from="1557367417516" duration="4801000" />
-      <workItem from="1557414319088" duration="24263000" />
+      <workItem from="1557414319088" duration="25462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156742000" />
+    <option name="totallyTimeSpent" value="157941000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="530" y="23" width="1280" height="707" extended-state="0" />
+    <frame x="14" y="23" width="1280" height="707" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19381107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -358,16 +341,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/二叉树/Tarjan算法与并查集解决二叉树节点间最近公共祖先的批量查询问题.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/二叉树/在二叉树中找到累加和为指定值的最长路径长度.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -821,17 +794,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/位运算/不用额外变量交换两个整数的值.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="137">
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/位运算/不用额外变量交换两个整数的值.cpp">
+    <entry file="file://$PROJECT_DIR$/位运算/在其他数都出现偶数次的数组中找到出现奇数次的数.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="521">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
