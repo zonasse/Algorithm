@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/位运算/需要排序的最短子数组长度.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,10 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/位运算/需要排序的最短子数组长度.cpp">
+        <entry file="file://$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -56,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/二叉树/判断t1树是否包含t2树全部的拓扑结构.cpp" />
         <option value="$PROJECT_DIR$/二叉树/判断t1树中是否有与t2树拓扑结构完全相同的子树.cpp" />
         <option value="$PROJECT_DIR$/二叉树/根据后序数组重建搜索二叉树.cpp" />
         <option value="$PROJECT_DIR$/二叉树/判断一颗二叉树是否为搜索二叉树和完全二叉树.cpp" />
@@ -107,6 +107,7 @@
         <option value="$PROJECT_DIR$/位运算/找到无序数组中最小的k个数.cpp" />
         <option value="$PROJECT_DIR$/位运算/需要排序的最短子数组长度.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp" />
       </list>
     </option>
   </component>
@@ -227,28 +228,30 @@
       <workItem from="1557367211359" duration="202000" />
       <workItem from="1557367417516" duration="4801000" />
       <workItem from="1557414319088" duration="27093000" />
-      <workItem from="1557731747451" duration="4916000" />
+      <workItem from="1557731747451" duration="5274000" />
+      <workItem from="1557803366188" duration="3811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164488000" />
+    <option name="totallyTimeSpent" value="168657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="23" width="1280" height="707" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28745928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2931596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.27758622" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23275863" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.25344828" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2862069" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.497557" weight="0.27068967" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.497557" weight="0.6034483" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50162864" side_tool="true" weight="0.33448276" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -337,20 +340,35 @@
           <line>21</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp</url>
+          <line>78</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp</url>
+          <line>49</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp</url>
+          <line>64</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp</url>
+          <line>67</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp</url>
+          <line>80</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/二叉树/判断一颗二叉树是否为搜索二叉树和完全二叉树.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="71" column="3" selection-start-line="71" selection-start-column="3" selection-end-line="78" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/二叉树/二叉树节点间的最大距离.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="943">
@@ -801,6 +819,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/位运算/需要排序的最短子数组长度.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -808,10 +836,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/位运算/需要排序的最短子数组长度.cpp">
+    <entry file="file://$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
