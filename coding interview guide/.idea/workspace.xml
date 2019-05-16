@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数组和矩阵问题/最长的可整合子数组的长度.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组和矩阵问题/不重复打印排序数组中相加和为给定值的所有二元组和三元组.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -38,12 +38,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数组和矩阵问题/最长的可整合子数组的长度.cpp">
+        <entry file="file://$PROJECT_DIR$/数组和矩阵问题/不重复打印排序数组中相加和为给定值的所有二元组和三元组.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+            <state relative-caret-position="191">
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding>
-                <element signature="e#40#59#0" expanded="true" />
+                <element signature="e#40#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/二叉树/判断一颗二叉树是否为搜索二叉树和完全二叉树.cpp" />
         <option value="$PROJECT_DIR$/二叉树/根据有序数组生成平衡搜索二叉树.cpp" />
         <option value="$PROJECT_DIR$/二叉树/在二叉树中找到一个节点的后继结点.cpp" />
         <option value="$PROJECT_DIR$/二叉树/在二叉树中找到两个节点的最近公共祖先.cpp" />
@@ -106,8 +105,9 @@
         <option value="$PROJECT_DIR$/位运算/需要排序的最短子数组长度.cpp" />
         <option value="$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp" />
         <option value="$PROJECT_DIR$/位运算/在行和列都排好序的数组中找数.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/数组和矩阵问题/最长的可整合子数组的长度.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/数组和矩阵问题/不重复打印排序数组中相加和为给定值的所有二元组和三元组.cpp" />
       </list>
     </option>
   </component>
@@ -230,12 +230,12 @@
       <workItem from="1557367417516" duration="4801000" />
       <workItem from="1557414319088" duration="27093000" />
       <workItem from="1557731747451" duration="5274000" />
-      <workItem from="1557803366188" duration="5693000" />
+      <workItem from="1557803366188" duration="6638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170539000" />
+    <option name="totallyTimeSpent" value="171484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="23" width="1280" height="707" extended-state="0" />
@@ -344,16 +344,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/二叉树/统计和生成所有不同的二叉树.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#98#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/二叉树/非递归方式实现二叉树的遍历.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
@@ -804,6 +794,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/最长的可整合子数组的长度.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
@@ -811,12 +811,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/最长的可整合子数组的长度.cpp">
+    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/不重复打印排序数组中相加和为给定值的所有二元组和三元组.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        <state relative-caret-position="191">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding>
-            <element signature="e#40#59#0" expanded="true" />
+            <element signature="e#40#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
