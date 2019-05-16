@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数组和矩阵问题/未排序数组中累加和小于或等于给定值的最长子数组长度.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组和矩阵问题/计算数组的小和.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,19 +31,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="177">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数组和矩阵问题/未排序数组中累加和小于或等于给定值的最长子数组长度.cpp">
+        <entry file="file://$PROJECT_DIR$/数组和矩阵问题/计算数组的小和.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="52">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="e#40#59#0" expanded="true" />
+                <element signature="e#39#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/二叉树/Tarjan算法与并查集解决二叉树节点间最近公共祖先的批量查询问题.cpp" />
         <option value="$PROJECT_DIR$/二叉树/二叉树节点间的最大距离.cpp" />
         <option value="$PROJECT_DIR$/二叉树/通过先序和中序数组生成后序数组.cpp" />
         <option value="$PROJECT_DIR$/二叉树/统计和生成所有不同的二叉树.cpp" />
@@ -106,8 +105,9 @@
         <option value="$PROJECT_DIR$/数组和矩阵问题/不重复打印排序数组中相加和为给定值的所有二元组和三元组.cpp" />
         <option value="$PROJECT_DIR$/数组和矩阵问题/未排序数组中累加和为给定值的最长子数组长度.cpp" />
         <option value="$PROJECT_DIR$/数组和矩阵问题/未排序数组中累加和为给定值的最长子数组系列问题.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/数组和矩阵问题/未排序数组中累加和小于或等于给定值的最长子数组长度.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/数组和矩阵问题/计算数组的小和.cpp" />
       </list>
     </option>
   </component>
@@ -230,17 +230,17 @@
       <workItem from="1557367417516" duration="4801000" />
       <workItem from="1557414319088" duration="27093000" />
       <workItem from="1557731747451" duration="5274000" />
-      <workItem from="1557803366188" duration="12288000" />
+      <workItem from="1557803366188" duration="14108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177134000" />
+    <option name="totallyTimeSpent" value="178954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="707" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26465797" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3615635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -344,16 +344,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/递归和动态规划/矩阵的最小路径和.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="e#39#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/递归和动态规划/换钱的最小货币数.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -807,19 +797,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/未排序数组中累加和小于或等于给定值的最长子数组长度.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="244">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/未排序数组中累加和小于或等于给定值的最长子数组长度.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="177">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/计算数组的小和.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#40#59#0" expanded="true" />
+            <element signature="e#39#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
