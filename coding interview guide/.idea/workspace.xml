@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数组和矩阵问题/计算数组的小和.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数组和矩阵问题/计算数组的小和.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/数组和矩阵问题/计算数组的小和.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/数组和矩阵问题/计算数组的小和.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="292">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -230,23 +229,24 @@
       <workItem from="1557367417516" duration="4801000" />
       <workItem from="1557414319088" duration="27093000" />
       <workItem from="1557731747451" duration="5274000" />
-      <workItem from="1557803366188" duration="14108000" />
+      <workItem from="1557803366188" duration="14861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178954000" />
+    <option name="totallyTimeSpent" value="179707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="707" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3615635" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3615635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.3034483" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.13793103" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.3034483" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34827587" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -816,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数组和矩阵问题/计算数组的小和.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="292">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>

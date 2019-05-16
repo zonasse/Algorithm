@@ -44,7 +44,8 @@ int getSmallSum(vector<int> arr){
 }
 
 int main(){
-    cout<<getSmallSum({1,3,5,2,4,6});
+    vector<int> arr = {1,3,5,2,4,6};
+    cout<<getSmallSum(arr);
 
     return 0;
 }
