@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数组和矩阵问题/数组中子数组的最大累乘积.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组和矩阵问题/打印N个数组整体最大的Top K.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,19 +31,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
+            <state relative-caret-position="348">
               <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数组和矩阵问题/数组中子数组的最大累乘积.cpp">
+        <entry file="file://$PROJECT_DIR$/数组和矩阵问题/打印N个数组整体最大的Top K.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="476">
+              <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
               <folding>
-                <element signature="e#39#58#0" expanded="true" />
+                <element signature="e#40#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/递归和动态规划/换钱的最小货币数.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/换钱的方法数.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/最长递增子序列.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/汉诺塔问题.cpp" />
@@ -107,15 +107,16 @@
         <option value="$PROJECT_DIR$/数组和矩阵问题/在数组中找到一个局部最小的位置.cpp" />
         <option value="$PROJECT_DIR$/数组和矩阵问题/数组中子数组的最大累乘积.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/数组和矩阵问题/打印N个数组整体最大的Top K.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="9" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="707" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -125,6 +126,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="coding_interview_guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding interview guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coding_interview_guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coding interview guide" type="462c0819:PsiDirectoryNode" />
+              <item name="数组和矩阵问题" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coding_interview_guide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -145,26 +166,6 @@
               <item name="coding_interview_guide" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Documents/GitHub/Algorithm/coding interview guide" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="递归和动态规划" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="coding_interview_guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding interview guide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_interview_guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coding interview guide" type="462c0819:PsiDirectoryNode" />
-              <item name="数组和矩阵问题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coding_interview_guide" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -230,27 +231,28 @@
       <workItem from="1557414319088" duration="27093000" />
       <workItem from="1557731747451" duration="5274000" />
       <workItem from="1557803366188" duration="17862000" />
+      <workItem from="1558018245526" duration="2544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182708000" />
+    <option name="totallyTimeSpent" value="185252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="23" width="1280" height="707" extended-state="0" />
+    <frame x="9" y="23" width="1280" height="709" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3615635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21091205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.3034483" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.45876288" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47586206" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.497557" weight="0.6034483" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.497557" weight="0.6030928" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50162864" side_tool="true" weight="0.33448276" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -348,16 +350,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/递归和动态规划/最小编辑代价.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/递归和动态规划/最长公共子串问题.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -644,56 +636,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/位运算/在其他数都出现k次的数组中找到只出现一次的数.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/位运算/找到无序数组中最小的k个数.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#40#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/位运算/需要排序的最短子数组长度.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/位运算/在行和列都排好序的数组中找数.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="e#40#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/位运算/在其他数都出现k次的数组中找到只出现一次的数.cpp" />
+    <entry file="file://$PROJECT_DIR$/位运算/找到无序数组中最小的k个数.cpp" />
+    <entry file="file://$PROJECT_DIR$/位运算/需要排序的最短子数组长度.cpp" />
+    <entry file="file://$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp" />
+    <entry file="file://$PROJECT_DIR$/位运算/在行和列都排好序的数组中找数.cpp" />
     <entry file="file://$PROJECT_DIR$/数组和矩阵问题/在行和列都排好序的数组中找数.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -811,19 +758,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/数组中子数组的最大累乘积.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
+        <state relative-caret-position="348">
           <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/数组中子数组的最大累乘积.cpp">
+    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/打印N个数组整体最大的Top K.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="476">
+          <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
           <folding>
-            <element signature="e#39#58#0" expanded="true" />
+            <element signature="e#40#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
