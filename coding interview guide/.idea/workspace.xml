@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数组和矩阵问题/不包含本位置的累乘数组.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组和矩阵问题/数组的partition调整.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,17 +31,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="62">
               <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数组和矩阵问题/不包含本位置的累乘数组.cpp">
+        <entry file="file://$PROJECT_DIR$/数组和矩阵问题/数组的partition调整.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="288">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#40#57#0" expanded="true" />
               </folding>
@@ -56,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/递归和动态规划/汉诺塔问题.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/最长公共子序列问题.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/最长公共子串问题.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/最小编辑代价.cpp" />
@@ -105,17 +105,17 @@
         <option value="$PROJECT_DIR$/数组和矩阵问题/数组中子数组的最大累乘积.cpp" />
         <option value="$PROJECT_DIR$/数组和矩阵问题/打印N个数组整体最大的Top K.cpp" />
         <option value="$PROJECT_DIR$/数组和矩阵问题/边界都是1的最大正方形大小.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/数组和矩阵问题/不包含本位置的累乘数组.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/数组和矩阵问题/数组的partition调整.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="9" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="712" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -230,23 +230,24 @@
       <workItem from="1557414319088" duration="27093000" />
       <workItem from="1557731747451" duration="5274000" />
       <workItem from="1557803366188" duration="17862000" />
-      <workItem from="1558018245526" duration="6520000" />
+      <workItem from="1558018245526" duration="6712000" />
+      <workItem from="1558062405753" duration="1029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189228000" />
+    <option name="totallyTimeSpent" value="190449000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21091205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21498372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" weight="0.45876288" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4742268" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.47250858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -345,25 +346,10 @@
           <line>24</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/数组和矩阵问题/不包含本位置的累乘数组.cpp</url>
-          <line>51</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/递归和动态规划/数字字符串转换为字母组合的种数.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/递归和动态规划/排成一条线的纸牌博弈问题.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -772,17 +758,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/不包含本位置的累乘数组.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="e#40#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="62">
           <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/不包含本位置的累乘数组.cpp">
+    <entry file="file://$PROJECT_DIR$/数组和矩阵问题/数组的partition调整.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="288">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#40#57#0" expanded="true" />
           </folding>
