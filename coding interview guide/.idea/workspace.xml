@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/其它/判断一个点是否在矩形内.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/其它/判断一个点是否在三角形内部.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,17 +30,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="115">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/其它/判断一个点是否在三角形内部.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/其它/判断一个点是否在矩形内.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+            <state relative-caret-position="368">
+              <caret line="47" selection-start-line="47" selection-end-line="61" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -53,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/递归和动态规划/排成一条线的纸牌博弈问题.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/跳跃游戏.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/数组中的最长连续序列.cpp" />
         <option value="$PROJECT_DIR$/递归和动态规划/N皇后.cpp" />
@@ -102,8 +110,9 @@
         <option value="$PROJECT_DIR$/数组和矩阵问题/数组排序之后相邻数的最大差值.cpp" />
         <option value="$PROJECT_DIR$/其它/一行代码求两个数的最大公约数.cpp" />
         <option value="$PROJECT_DIR$/其它/有关阶乘的两个问题.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/其它/判断一个点是否在矩形内.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/其它/判断一个点是否在三角形内部.cpp" />
       </list>
     </option>
   </component>
@@ -228,12 +237,12 @@
       <workItem from="1557731747451" duration="5274000" />
       <workItem from="1557803366188" duration="17862000" />
       <workItem from="1558018245526" duration="6712000" />
-      <workItem from="1558062405753" duration="9538000" />
+      <workItem from="1558062405753" duration="10290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198958000" />
+    <option name="totallyTimeSpent" value="199710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="23" width="1280" height="709" extended-state="0" />
@@ -347,13 +356,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1500" column="33" selection-start-line="1500" selection-start-column="33" selection-end-line="1500" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/字符串问题/判断两个字符串是否互为旋转词.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-278">
@@ -764,15 +766,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="115">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/其它/判断一个点是否在矩形内.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        <state relative-caret-position="368">
+          <caret line="47" selection-start-line="47" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其它/判断一个点是否在三角形内部.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
         </state>
       </provider>
     </entry>
