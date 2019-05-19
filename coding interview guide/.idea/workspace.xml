@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/其它/正数数组的最小不可组成和.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/其它/一种字符串和数字的对应关系.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,17 +31,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
+            <state relative-caret-position="148">
               <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/其它/正数数组的最小不可组成和.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
-              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+              <folding>
+                <element signature="e#39#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/其它/一种字符串和数字的对应关系.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -57,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/字符串问题/判断两个字符串是否互为旋转词.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/判断字符数组中是否所有的字符都只出现过一次.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/反转字符串.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/数组中两个字符串的最小距离.cpp" />
@@ -106,14 +117,15 @@
         <option value="$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp" />
         <option value="$PROJECT_DIR$/其它/设计RandomPool结构.cpp" />
         <option value="$PROJECT_DIR$/其它/调整[0,x)区间上的数出现的概率.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/其它/正数数组的最小不可组成和.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/其它/一种字符串和数字的对应关系.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="69" />
+    <option name="x" value="19" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
@@ -232,15 +244,16 @@
       <workItem from="1557731747451" duration="5274000" />
       <workItem from="1557803366188" duration="17862000" />
       <workItem from="1558018245526" duration="6712000" />
-      <workItem from="1558062405753" duration="20921000" />
+      <workItem from="1558062405753" duration="22289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210341000" />
+    <option name="totallyTimeSpent" value="211709000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="23" width="1280" height="709" extended-state="0" />
+    <frame x="19" y="23" width="1280" height="709" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2923453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -248,7 +261,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.32474226" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.101374574" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34707904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -351,13 +364,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/deque">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2584" selection-start-line="2584" selection-end-line="2584" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/字符串问题/公式字符串求值.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1116">
@@ -760,17 +766,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/其它/正数数组的最小不可组成和.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
+        <state relative-caret-position="148">
           <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/其它/正数数组的最小不可组成和.cpp">
+    <entry file="file://$PROJECT_DIR$/其它/一种字符串和数字的对应关系.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="704">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
