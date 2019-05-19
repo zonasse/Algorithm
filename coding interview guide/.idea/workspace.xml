@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/其它/设计RandomPool结构.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -38,10 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp">
+        <entry file="file://$PROJECT_DIR$/其它/设计RandomPool结构.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="287">
+              <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
               <folding>
                 <element signature="e#39#58#0" expanded="true" />
               </folding>
@@ -57,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/字符串问题/判断两个字符串是否互为变形词.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/字符串中数字子串的求和.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/去掉字符串中连续出现k个0的子串.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/判断两个字符串是否互为旋转词.cpp" />
@@ -106,8 +105,9 @@
         <option value="$PROJECT_DIR$/其它/判断一个点是否在三角形内部.cpp" />
         <option value="$PROJECT_DIR$/其它/蓄水池算法.cpp" />
         <option value="$PROJECT_DIR$/其它/最大的leftMax与rightMax之差的绝对值.cpp" />
-        <option value="$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp" />
+        <option value="$PROJECT_DIR$/其它/设计RandomPool结构.cpp" />
       </list>
     </option>
   </component>
@@ -232,28 +232,28 @@
       <workItem from="1557731747451" duration="5274000" />
       <workItem from="1557803366188" duration="17862000" />
       <workItem from="1558018245526" duration="6712000" />
-      <workItem from="1558062405753" duration="14549000" />
+      <workItem from="1558062405753" duration="16977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203969000" />
+    <option name="totallyTimeSpent" value="206397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="23" width="1280" height="709" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2923453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2923453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" weight="0.1580756" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24398625" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.101374574" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.497557" weight="0.41580757" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.497557" weight="0.7079038" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50162864" side_tool="true" weight="0.33448276" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -347,50 +347,10 @@
           <line>24</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp</url>
-          <line>113</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp</url>
-          <line>114</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp</url>
-          <line>115</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp</url>
-          <line>116</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp</url>
-          <line>117</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp</url>
-          <line>118</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/字符串问题/反转字符串.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/字符串问题/数组中两个字符串的最小距离.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -793,6 +753,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -800,10 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/其它/设计可以变更的缓存结构.cpp">
+    <entry file="file://$PROJECT_DIR$/其它/设计RandomPool结构.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="287">
+          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
           <folding>
             <element signature="e#39#58#0" expanded="true" />
           </folding>
