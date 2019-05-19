@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/其它/从N个数中等概率打印M个数.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/其它/判断一个数是否是回文数.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -29,13 +29,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/其它/从N个数中等概率打印M个数.cpp">
+        <entry file="file://$PROJECT_DIR$/其它/判断一个数是否是回文数.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#39#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="248">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -43,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="40">
               <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
@@ -57,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/字符串问题/反转字符串.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/数组中两个字符串的最小距离.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/添加最少字符使字符串整体都是回文字符串.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/括号字符串的有效性和最长有效长度.cpp" />
@@ -106,8 +102,9 @@
         <option value="$PROJECT_DIR$/其它/调整[0,x)区间上的数出现的概率.cpp" />
         <option value="$PROJECT_DIR$/其它/正数数组的最小不可组成和.cpp" />
         <option value="$PROJECT_DIR$/其它/一种字符串和数字的对应关系.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/其它/从N个数中等概率打印M个数.cpp" />
+        <option value="$PROJECT_DIR$/其它/判断一个数是否是回文数.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -232,23 +229,22 @@
       <workItem from="1557731747451" duration="5274000" />
       <workItem from="1557803366188" duration="17862000" />
       <workItem from="1558018245526" duration="6712000" />
-      <workItem from="1558062405753" duration="24551000" />
+      <workItem from="1558062405753" duration="25014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213971000" />
+    <option name="totallyTimeSpent" value="214434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2923453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2923453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.38316151" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.38316151" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34707904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,16 +348,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/字符串问题/括号字符串的有效性和最长有效长度.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/字符串问题/拼接所有字符串产生字典顺序最小的大写字符串.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -764,20 +750,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/其它/从N个数中等概率打印M个数.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="40">
           <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/其它/从N个数中等概率打印M个数.cpp">
+    <entry file="file://$PROJECT_DIR$/其它/判断一个数是否是回文数.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#39#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
         </state>
       </provider>
     </entry>
