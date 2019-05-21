@@ -33,5 +33,6 @@ int main(){
     cout<<getUpMedian({1,2,3,4,5},{1,2,3,4,5})<<endl;
     cout<<getUpMedian({1,2,3,4},{1,2,3,4})<<endl;
 
+
     return 0;
 }
