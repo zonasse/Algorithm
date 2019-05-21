@@ -12,9 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c7d878-05bd-4ac2-8b67-e46d5f96efcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/其它/Manacher算法.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/其它/在两个相等的排序数组中找到上中位数.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/其它/在两个相等的排序数组中找到上中位数.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/其它/KMP算法.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,10 +37,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/其它/Manacher算法.cpp">
+        <entry file="file://$PROJECT_DIR$/其它/KMP算法.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+            <state relative-caret-position="202">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -58,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/字符串问题/最小包含子串的长度.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/回文最小分割数.cpp" />
         <option value="$PROJECT_DIR$/字符串问题/字符串匹配问题.cpp" />
         <option value="$PROJECT_DIR$/位运算/不用额外变量交换两个整数的值.cpp" />
@@ -107,8 +104,9 @@
         <option value="$PROJECT_DIR$/其它/一种消息接收并打印的结构设计.cpp" />
         <option value="$PROJECT_DIR$/其它/随时找到数据流的中位数.cpp" />
         <option value="$PROJECT_DIR$/其它/在两个相等的排序数组中找到上中位数.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/其它/Manacher算法.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/其它/KMP算法.cpp" />
       </list>
     </option>
   </component>
@@ -233,12 +231,12 @@
       <workItem from="1557731747451" duration="5274000" />
       <workItem from="1557803366188" duration="17862000" />
       <workItem from="1558018245526" duration="6712000" />
-      <workItem from="1558062405753" duration="37437000" />
+      <workItem from="1558062405753" duration="38714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226857000" />
+    <option name="totallyTimeSpent" value="228134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -248,13 +246,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.22508591" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" visible="true" weight="0.32646048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34707904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.497557" weight="0.12714776" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.497557" weight="0.2766323" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50162864" side_tool="true" weight="0.33448276" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -352,7 +350,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/位运算/在其他数都出现k次的数组中找到只出现一次的数.cpp" />
     <entry file="file://$PROJECT_DIR$/位运算/找到无序数组中最小的k个数.cpp" />
     <entry file="file://$PROJECT_DIR$/位运算/需要排序的最短子数组长度.cpp" />
     <entry file="file://$PROJECT_DIR$/位运算/在数组中找到出现次数大于NK的数.cpp" />
@@ -759,6 +756,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/其它/Manacher算法.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -766,10 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/其它/Manacher算法.cpp">
+    <entry file="file://$PROJECT_DIR$/其它/KMP算法.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
+        <state relative-caret-position="202">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
