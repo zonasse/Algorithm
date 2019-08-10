@@ -28,8 +28,9 @@ int solution(vector<int> arr,int num){
 }
 
 int main(){
-    cout<<solution({3,1,4},2)<<endl;
-    cout<<solution({1,1,1,4,3},3)<<endl;
+        cout<<-3/2<<" "<<-3%2<<endl;
+//    cout<<solution({3,1,4},2)<<endl;
+//    cout<<solution({1,1,1,4,3},3)<<endl;
 
     return 0;
 }

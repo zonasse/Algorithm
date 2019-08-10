@@ -1,36 +1,98 @@
-class LRUCache {
+class Node {
 public:
-    LRUCache(int capacity) {
-        _capacity = capacity;
+    int val;
+    Node *next;
+    Node *pre;
+    Node(int x):val(x),next(NULL),pre(NULL) {
+        
     }
-
-    int get(int key) {
-        auto it = _M.find(key);
-        if(it == _M.end()) return -1;
-        _list.splice(_list.begin(),_list,it->second);
-        return it->second->second;
-    }
-
-    void put(int key, int value) {
-        auto it = _M.find(key);
-        if(it != _M.end()) _list.erase(it->second);
-        _list.push_front(make_pair(key,value));
-        _M[key] = _list.begin();
-        if(_list.size() > _capacity){
-            int k = _list.rbegin()->first;
-            _list.pop_back();
-            _M.erase(k);
+};
+class NodeDoubleLinkedList {
+private:
+    Node *head;
+    Node *tail;
+public:
+    void addNode(Node *node) {
+        if (!node) return;
+        if (!head) {
+            head = node;
+            tail = node;
+        } else {
+            tail->next = node;
+            node->pre = tail;
+            tail = node;
         }
     }
+    void moveNodeToTail(Node *node) {
+        if (!node) return;
+        if (node == tail) return;
+        if (node == head) {
+            head = node->next;
+            head->pre = NULL;
+        } else {
+            node->pre->next = node->next;
+            node->next->pre = node->pre;
+        }
+        tail->next = node;
+        node->pre = tail;
+        tail = node;
+        node->next = NULL;
+    }
+    Node* removeHead() {
+        if (!head) return NULL;
+        Node *res = head;
+        head = res->next;
+        head->pre = NULL;
+        res->next = NULL;
+        return res;
+    }
+};
+class LRUCache {
 private:
-    int _capacity;
-    list<pair<int,int> > _list;
-    unordered_map<int, list<pair<int,int> > ::iterator > _M;
+    int capacity;
+    unordered_map<int,Node*> keyValueMap;
+    unordered_map<Node*,int> valueKeyMap;
+    NodeDoubleLinkedList *pool;
+public:
+    LRUCache(int capacity) {
+        this->capacity = capacity;
+        this->pool = new NodeDoubleLinkedList();
+    }
+    
+    int get(int key) {
+        if (this->keyValueMap.count(key)) {
+            Node *node = this->keyValueMap[key];
+            int value = node->val;
+            this->pool->moveNodeToTail(node);
+            return value;
+        } else {
+            return -1;
+        }
+    }
+    
+    void put(int key, int value) {
+        if (this->keyValueMap.count(key)) {
+            Node *node = this->keyValueMap[key];
+            node->val = value;
+            this->pool->moveNodeToTail(node);
+        } else {
+            Node *newNode = new Node(value);
+            this->keyValueMap[key] = newNode;
+            this->valueKeyMap[newNode] = key;
+            this->pool->addNode(newNode);
+            if (this->keyValueMap.size() == this->capacity + 1) {
+                Node *head = this->pool->removeHead();
+                int key = this->valueKeyMap[head];
+                this->keyValueMap.erase(this->keyValueMap.find(key));
+                this->valueKeyMap.erase(this->valueKeyMap.find(head));
+            }
+        }
+    }
 };
 
 /**
  * Your LRUCache object will be instantiated and called as such:
- * LRUCache obj = new LRUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
  */

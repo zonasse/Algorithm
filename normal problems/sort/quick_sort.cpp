@@ -26,18 +26,27 @@ private:
         _quick_sort(nums,mid+1,right);
     }
     int _partition(vector<int> &nums,int left,int right){
-        int i = left,j = right+1;
+//        int i = left,j = right+1;
+//        int pivot = nums[left];
+//        while(true){
+//            while(nums[++i] < pivot) if(i >= right) break;
+//            while(nums[--j] > pivot) if(j <= left) break;
+//            if(i >= j){
+//                break;
+//            }
+//            _swap(nums[i],nums[j]);
+//        }
+//        _swap(nums[left],nums[j]);
+//        return j;
         int pivot = nums[left];
-        while(true){
-            while(nums[++i] < pivot) if(i >= right) break;
-            while(nums[--j] > pivot) if(j <= left) break;
-            if(i >= j){
-                break;
-            }
-            _swap(nums[i],nums[j]);
+        while(left < right){
+            while(left < right && nums[right] >= pivot) right--;
+            nums[left] = nums[right];
+            while(left < right && nums[left] <= pivot) left++;
+            nums[right] = nums[left];
         }
-        _swap(nums[left],nums[j]);
-        return j;
+        nums[left] = pivot;
+        return left;
     }
     void _swap(int &a,int &b){
         int temp = a;
